@@ -13,22 +13,22 @@ let g:colors_name="ibmedit"
 
 hi Normal       term=NONE cterm=NONE ctermfg=Gray ctermbg=DarkBlue
 hi Normal       gui=NONE guifg=#CCCCCC guibg=DarkBlue
-hi NonText      term=NONE cterm=NONE ctermfg=White ctermbg=DarkBlue
+hi NonText      term=NONE cterm=NONE ctermfg=Gray ctermbg=DarkBlue
 hi NonText      gui=NONE guifg=#CCCCCC guibg=DarkBlue
 
 hi Statement    term=NONE cterm=NONE ctermfg=White  ctermbg=DarkBlue
 hi Statement    gui=NONE guifg=White guibg=DarkBlue
-hi Special      term=NONE cterm=NONE ctermfg=Cyan ctermbg=DarkBlue
+hi Special      term=NONE cterm=NONE ctermfg=White ctermbg=DarkBlue
 hi Special      gui=NONE guifg=White guibg=DarkBlue
-hi Constant     term=NONE cterm=NONE ctermfg=Magenta ctermbg=DarkBlue
+hi Constant     term=NONE cterm=NONE ctermfg=Cyan ctermbg=DarkBlue
 hi Constant     gui=NONE guifg=#99CCFF guibg=DarkBlue
 hi Comment      term=NONE cterm=NONE ctermfg=Blue ctermbg=DarkBlue
 hi Comment      gui=NONE guifg=#6666FF guibg=DarkBlue
-hi Preproc      term=NONE cterm=NONE ctermfg=Green ctermbg=DarkBlue
+hi Preproc      term=NONE cterm=NONE ctermfg=Cyan ctermbg=DarkBlue
 hi Preproc      gui=NONE guifg=#99CCFF guibg=DarkBlue
 hi Type         term=NONE cterm=NONE ctermfg=Gray ctermbg=DarkBlue
 hi Type         gui=NONE guifg=#CCCCCC guibg=DarkBlue
-hi Identifier   term=NONE cterm=NONE ctermfg=White ctermbg=DarkBlue
+hi Identifier   term=NONE cterm=NONE ctermfg=Grey ctermbg=DarkBlue
 hi Identifier   gui=NONE guifg=#CCCCCC guibg=DarkBlue
 
 hi StatusLine   term=bold cterm=bold ctermfg=Black ctermbg=White
@@ -38,7 +38,7 @@ hi StatusLineNC term=NONE cterm=NONE ctermfg=Black ctermbg=White
 hi StatusLineNC gui=NONE guifg=Black guibg=White
 
 hi Visual       term=NONE cterm=NONE ctermfg=Black ctermbg=DarkCyan
-hi Visual       gui=NONE guifg=Black guibg=DarkCyan
+hi Visual       gui=NONE guifg=Black guibg=Gray
 
 hi Search       term=NONE cterm=NONE ctermbg=Gray
 hi Search       gui=NONE guibg=Gray
